@@ -1,0 +1,160 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.navbar{
+    padding:15px;
+    overflow:hidden;
+}
+
+.logo{
+    float:left; 
+}
+
+.menu{
+    text-align: center;
+}
+
+.menu a{
+    
+    margin-left:20px;
+    display:inline-block; 
+   
+
+    
+}
+
+.b1{
+    float: right;
+    color:blue;
+    background-color:rgb(205, 246, 246);
+    border: none;
+   }
+
+
+.hero{
+    width: 90%;
+    margin: 50px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.text{
+    width:45%;
+    float:left;
+    margin-top: 10vh;
+    margin-left: 10%;
+.p1{
+    width: 150%;
+
+    }
+}
+
+.image{
+    width:100%;
+    max-width: 400px;
+    float:none;
+    margin: 20px auto;
+}
+
+.image img{
+    width:100%;
+    display:block;
+}
+
+button{
+    padding:20px 20px;
+    margin-top:15px;
+    border-radius: 10px;
+    border: none;
+    color:white;
+    background-color: rgb(40, 195, 226);
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    .hero{
+        width: 95%;
+    }
+
+    .text{
+        width: 45%;
+        margin-left: 5%;
+    }
+
+    .image{
+        width: 45%;
+        margin-right: 0;
+    }
+
+    .image img{
+        width: 100%;
+    }
+
+    .menu a{
+        margin-left: 10px;
+    }
+}
+
+
+
+@media screen and (max-width: 480px){
+
+    .navbar{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo,
+    .menu,
+    .b1{
+        float: none;
+    }
+
+    .menu a{
+        display: block;
+        margin: 10px 0;
+    }
+
+    .hero{
+        width: 100%;
+        margin: 20px auto;
+    }
+
+    .text{
+        width: 90%;
+        float: none;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    .p1{
+        width: 100%;
+    }
+
+    .image{
+        width: 90%;
+        float: none;
+        margin: 20px auto;
+    }
+
+    .image img{
+        width: 100%;
+        height: auto;
+    }
+
+    button{
+        width: 100%;
+        max-width: 250px;
+    }
+
+    h1{
+        font-size: 28px;
+    }
+}
